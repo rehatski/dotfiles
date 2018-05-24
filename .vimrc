@@ -105,6 +105,7 @@ nmap <leader>i mzgg=G`z
 nmap <leader>s ysiw
 
 nmap <silent> <leader>n :NERDTreeToggle<CR> 
+nmap <silent> <leader>a :ALEToggle<CR> 
 
 " Useful mappings for managing tabs
 map <leader>tn :tabnew<cr>
