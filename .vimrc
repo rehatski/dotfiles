@@ -233,6 +233,9 @@ endif
 " Add a bit extra margin to the left
 set foldcolumn=1
 
+" enables mouse scrolling in tmux
+set mouse=a
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -245,7 +248,7 @@ syntax enable
 "endif
 
 try
-    colorscheme solarized "badwolf
+    colorscheme badwolf "solarized badwolf
 catch
 endtry
 
