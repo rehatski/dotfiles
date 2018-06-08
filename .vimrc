@@ -19,6 +19,7 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'tpope/vim-surround'
 Plugin 'w0rp/ale'
 Plugin 'jakar/vim-json'
+Plugin 'christoomey/vim-tmux-navigator'
 
 "Launch vim and run :PluginInstall
 "To install from command line: vim +PluginInstall +qall
