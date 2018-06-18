@@ -46,6 +46,9 @@ let NERDTreeShowHidden = 1
 let g:airline_theme= 'base16_monokai'
 
 " TODO: Create a Ale Toggle shortcut
+" Inspect runner pane
+map <Leader>vi :VimuxInspectRunner<CR>
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Key Shortcuts
