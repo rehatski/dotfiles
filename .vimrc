@@ -49,7 +49,6 @@ let g:airline_theme= 'base16_monokai'
 " Inspect runner pane
 map <Leader>vi :VimuxInspectRunner<CR>
 
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Key Shortcuts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -358,3 +357,4 @@ function! VisualSelection(direction, extra_filter) range
     let @/ = l:pattern
     let @" = l:saved_reg
 endfunction
+
