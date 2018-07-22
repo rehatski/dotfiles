@@ -251,7 +251,7 @@ syntax enable
 "endif
 
 try
-    colorscheme badwolf "solarized badwolf
+    colorscheme gruvbox "badwolf solarized badwolf
 catch
 endtry
 
