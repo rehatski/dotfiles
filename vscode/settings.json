@@ -12,5 +12,10 @@
     "files.autoSave": "afterDelay",
     "window.zoomLevel": 0,
     "editor.codeLens": false,
-    "git.ignoreMissingGitWarning": true
+    "git.ignoreMissingGitWarning": true,
+    "breadcrumbs.enabled": true,
+    "code-runner.executorMap": {
+        "javascript": "$workspaceRoot/node_modules/.bin/babel $fullFileName | node "
+    },
+    "workbench.colorTheme": "Dracula"
 }
