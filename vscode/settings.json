@@ -2,15 +2,24 @@
     "workbench.startupEditor": "newUntitledFile",
     "vim.insertModeKeyBindings": [
         {
-            "before": ["j","j"],
-            "after": ["<Esc>"]
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
         }
     ],
     "workbench.activityBar.visible": false,
     "editor.minimap.enabled": false,
     "workbench.statusBar.feedback.visible": false,
     "files.autoSave": "afterDelay",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "editor.codeLens": false,
-    "git.ignoreMissingGitWarning": true
+    "git.ignoreMissingGitWarning": true,
+    // Controls the font family.
+    "editor.fontFamily": "PragmataPro",
+    // Controls the font size.
+    "editor.fontSize": 12
 }
