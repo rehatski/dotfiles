@@ -15,13 +15,13 @@
     "editor.minimap.enabled": false,
     "workbench.statusBar.feedback.visible": false,
     "files.autoSave": "afterDelay",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 2,
     "editor.codeLens": false,
     "git.ignoreMissingGitWarning": true,
     // Controls the font family.
     "editor.fontFamily": "PragmataPro",
     // Controls the font size.
-    "editor.fontSize": 12
+    "editor.fontSize": 12,
     "breadcrumbs.enabled": true,
     "code-runner.executorMap": {
         "javascript": "$workspaceRoot/node_modules/.bin/babel $fullFileName | node "
