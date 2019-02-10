@@ -22,4 +22,9 @@
     "editor.fontFamily": "PragmataPro",
     // Controls the font size.
     "editor.fontSize": 12
+    "breadcrumbs.enabled": true,
+    "code-runner.executorMap": {
+        "javascript": "$workspaceRoot/node_modules/.bin/babel $fullFileName | node "
+    },
+    "workbench.colorTheme": "Dracula"
 }
