@@ -15,16 +15,22 @@
     "editor.minimap.enabled": false,
     "workbench.statusBar.feedback.visible": false,
     "files.autoSave": "afterDelay",
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 0,
     "editor.codeLens": false,
     "git.ignoreMissingGitWarning": true,
     // Controls the font family.
-    "editor.fontFamily": "PragmataPro",
+    // "editor.fontFamily": "PragmataPro",
+    "editor.rulers": [120,120],
     // Controls the font size.
     "editor.fontSize": 12,
     "breadcrumbs.enabled": true,
-    "code-runner.executorMap": {
-        "javascript": "$workspaceRoot/node_modules/.bin/babel $fullFileName | node "
+    "workbench.colorTheme": "Dracula",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.detectIndentation": false,
+    "[javascript]": {
+        "editor.tabSize": 4
     },
-    "workbench.colorTheme": "Dracula"
+    "[typescript]": {
+        "editor.tabSize": 4
+    }
 }
