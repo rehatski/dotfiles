@@ -3,11 +3,6 @@
 BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 echo ${BASEDIR}
 
-ln -s ${BASEDIR}/.tmux.conf ~/.tmux.conf
-ln -s ${BASEDIR}/.inputrc ~/.inputrc
-ln -s ${BASEDIR}/.tern-project ~/.tern-project
-ln -s ${BASEDIR}/.tmux.conf ~/.tmux.conf
-
 # Install VSCODE first
 ln -sf ${BASEDIR}/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 ln -sf ${BASEDIR}/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
@@ -18,6 +13,3 @@ vim +PluginInstall +qall
 
 mkdir ~/.vim/colors/
 cp -a ${BASEDIR}/themes/vim/. ~/.vim/colors/
-
-cd ~/.vim/bundle/YouCompleteMe
-./install.py --js-completer

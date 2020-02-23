@@ -19,13 +19,11 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'chemzqm/vim-jsx-improve'
-Plugin 'valloric/youcompleteme'
 Plugin 'ternjs/tern_for_vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'tpope/vim-surround'
 Plugin 'w0rp/ale'
 Plugin 'jakar/vim-json'
-Plugin 'christoomey/vim-tmux-navigator'
 
 "Launch vim and run :PluginInstall
 "To install from command line: vim +PluginInstall +qall
