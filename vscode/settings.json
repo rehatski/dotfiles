@@ -2,13 +2,8 @@
   "workbench.startupEditor": "newUntitledFile",
   "vim.insertModeKeyBindings": [
     {
-      "before": [
-        "j",
-        "j"
-      ],
-      "after": [
-        "<Esc>"
-      ]
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
     }
   ],
   "workbench.activityBar.visible": false,
@@ -20,10 +15,7 @@
   "git.ignoreMissingGitWarning": true,
   // Controls the font family.
   "editor.fontFamily": "PragmataPro",
-  "editor.rulers": [
-    120,
-    120
-  ],
+  "editor.rulers": [120, 120],
   // Controls the font size.
   "editor.fontSize": 12,
   "breadcrumbs.enabled": true,
@@ -46,5 +38,5 @@
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDragAndDrop": false
 }
