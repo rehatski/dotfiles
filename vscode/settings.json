@@ -1,36 +1,50 @@
 {
-    "workbench.startupEditor": "newUntitledFile",
-    "vim.insertModeKeyBindings": [
-        {
-            "before": [
-                "j",
-                "j"
-            ],
-            "after": [
-                "<Esc>"
-            ]
-        }
-    ],
-    "workbench.activityBar.visible": false,
-    "editor.minimap.enabled": false,
-    "workbench.statusBar.feedback.visible": false,
-    "files.autoSave": "afterDelay",
-    "window.zoomLevel": 0,
-    "editor.codeLens": false,
-    "git.ignoreMissingGitWarning": true,
-    // Controls the font family.
-    // "editor.fontFamily": "PragmataPro",
-    "editor.rulers": [120,120],
-    // Controls the font size.
-    "editor.fontSize": 12,
-    "breadcrumbs.enabled": true,
-    "workbench.colorTheme": "Dracula",
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "editor.detectIndentation": false,
-    "[javascript]": {
-        "editor.tabSize": 4
-    },
-    "[typescript]": {
-        "editor.tabSize": 4
+  "workbench.startupEditor": "newUntitledFile",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
     }
+  ],
+  "workbench.activityBar.visible": false,
+  "editor.minimap.enabled": false,
+  "workbench.statusBar.feedback.visible": false,
+  "files.autoSave": "afterDelay",
+  "window.zoomLevel": 0,
+  "editor.codeLens": false,
+  "git.ignoreMissingGitWarning": true,
+  // Controls the font family.
+  "editor.fontFamily": "PragmataPro",
+  "editor.rulers": [
+    120,
+    120
+  ],
+  // Controls the font size.
+  "editor.fontSize": 12,
+  "breadcrumbs.enabled": true,
+  "workbench.colorTheme": "Gruvbox Dark (Hard)",
+  "editor.detectIndentation": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll.tslint": true
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
 }
